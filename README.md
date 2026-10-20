@@ -182,7 +182,7 @@ Released under the **Apache License 2.0**, the same license as the original Wate
 
 ## Acknowledgements
 
-Original WaterPaths: B. C. Trindade, D. F. Gold, P. M. Reed, H. B. Zeff, G. W. Characklis. Original CAESB model: A. P. Giacomazzo, B. M. Araújo, D. F. Gold, L. B. Lau, P. M. Reed, C. M. A. Alves. Borg MOEA: D. Hadka & P. Reed. [Add funding / HPC acknowledgement, e.g. SURF Snellius grant no.]
+Original WaterPaths: B. C. Trindade, D. F. Gold, P. M. Reed, H. B. Zeff, G. W. Characklis. Original CAESB model: A. P. Giacomazzo, B. M. Araújo, D. F. Gold, L. B. Lau, P. M. Reed, C. M. A. Alves. Borg MOEA: D. Hadka & P. Reed.
 
 ## Contact
 

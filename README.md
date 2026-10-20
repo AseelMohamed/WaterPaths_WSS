@@ -113,7 +113,7 @@ The executable is `FDBsimulation`.
 ```bash
 ./FDBsimulation -T 16 -t 2086 -r 999 -d ./ -C -1 -O rof_tables/ \
   -U InputFiles/utilities_rdm.csv -W InputFiles/water_sources_rdm.csv \
-  -P InputFiles/policies_rdm.csv -s FBD_DVs.csv -m 0 -E 3 -p 1
+  -P InputFiles/policies_rdm.csv -s FDB_DVs.csv -m 0 -E 3 -p 1
 ```
 
 **3. Optimize with Borg (SLURM example: `borg_caesb.sh`):**

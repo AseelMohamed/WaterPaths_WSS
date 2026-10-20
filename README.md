@@ -86,7 +86,7 @@ Add `-V 1` to modes 1–4 to include the failure-severity objective.
 
 - C++14 compiler with OpenMP (GCC ≥ 7 tested; Intel `icc` targets are also provided)
 - MPI (e.g. OpenMPI) for parallel optimization
-- **Borg MOEA** (multi-master version, `libborgms.a`), only for optimization. Borg is **not distributed with this repository**: request it from the authors at <http://borgmoea.org> and put `libborgms.a` in `lib/`.
+- **Borg MOEA** (multi-master version, `libborgms.a`), only for optimization. Borg is **not distributed with this repository**: request it from the authors at <http://borgmoea.org>.
 
 
 ## Build
@@ -144,9 +144,8 @@ InputFiles/
   *_rdm.csv, *_rdm_reeval.csv      deep-uncertainty (DU) factor samples for optimization / re-evaluation
   caesb*DemandClassesFractions.csv, caesb*UserClassesWaterPrices.csv, caesbPriceRestrictionMultipliers.csv
   demand_to_wastewater_fraction_caesb_*.csv
-FBD_DVs.csv                    example decision-variable vector (22 values)
+FDB_DVs.csv                    example decision-variable vector (22 values)
 Makefile, CMakeLists.txt       build files
-borg_caesb.sh, table_gen.sh, du_reeval_*.{sh,py}   HPC job scripts
 ```
 
 ## Data
@@ -159,7 +158,7 @@ borg_caesb.sh, table_gen.sh, du_reeval_*.{sh,py}   HPC job scripts
 | DU factors | 999 samples × (5 utility + 29 source + 2 policy) factors | multipliers |
 | Tariffs / demand classes | 12 months × 5 user classes, per WSS | R$/m³, fractions |
 
-The large inputs and pre-computed ROF tables (~1.2 GB) are archived separately on Zenodo: **[DATA DOI 10.5281/zenodo.YYYYYYY]**. Download them and unpack into `InputFiles/` and `rof_tables/`.
+The inputs and (example) pre-computed ROF tables are archived separately on Zenodo: **[DATA DOI 10.5281/zenodo.YYYYYYY]**. Download them and unpack into `InputFiles/` and `rof_tables/`.
 
 ## Outputs
 

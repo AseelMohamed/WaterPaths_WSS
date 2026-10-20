@@ -31,8 +31,6 @@ First public release. Changes are relative to the CAESB version of WaterPaths in
 - `src/Utils/Graph/`: `Graph.cpp`
 - `src/Utils/QPSolver/`: `QuadProg++.cpp`
 
-### Removed
-- none
 
 ### Summary
 - Multi-subsystem `Utility` → `WaterSupplySystems` architecture (per-WSS demands, tariffs, ROF, infrastructure, finances).
@@ -41,4 +39,4 @@ First public release. Changes are relative to the CAESB version of WaterPaths in
 - New infrastructure option: Santa Maria WTP expansion (ID 12).
 - New objectives (WSS reliability, affordability, severity) and experiment modes 1–8 (`-E`, `-w`, `-V`).
 - `NUM_DEC_VAR` 19 → 22; `NUM_OBJECTIVES` 5 → 7.
-- New data collectors and outputs; per-realization deep copies for thread safety; Borg failure handling; portable CLI parsing; CMake/OpenMP build.
+- New data collectors and outputs.

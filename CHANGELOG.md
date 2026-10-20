@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0] – 2026-XX-XX
+## [1.0.0] – 2026-10-20
 First public release. Changes are relative to the CAESB version of WaterPaths in Araújo et al. (2024) ([lbl59/federal_district](https://github.com/lbl59/federal_district), doi:10.5281/zenodo.8221350).
 
 ### Added (9 files)

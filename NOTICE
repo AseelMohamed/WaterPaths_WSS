@@ -1,0 +1,23 @@
+WaterPaths-WSS
+Copyright 2026 Aseel Mohamed
+
+This product is a modified version of WaterPaths
+(https://github.com/bernardoct/WaterPaths), Copyright Bernardo C. Trindade
+and contributors, licensed under the Apache License, Version 2.0.
+
+The Federal District (CAESB) problem formulation and input data are derived
+from the work of A. P. Giacomazzo (Universidade de Brasília, 2020) and
+B. M. Araújo, D. F. Gold, L. B. Lau, P. M. Reed and C. M. A. Alves (2024),
+https://github.com/lbl59/federal_district (doi:10.5281/zenodo.8221350).
+
+Modifications by Aseel Mohamed (2025-2026) include: the WaterSupplySystems
+class and multi-subsystem Utility architecture; per-WSS risk-of-failure,
+infrastructure management and financial accounting; WSS-level restrictions
+with tariff surcharges, bilateral transfers with sender demand protection and
+the EmergencyTransferParanoa policy; WSS-level reliability, affordability and
+severity objectives with experiment modes 1-8; new data collectors and
+outputs. Files changed relative to the original are listed in CHANGELOG.md.
+
+This product includes QuadProg++ (src/Utils/QPSolver), distributed under its
+own license. Borg MOEA (Copyright The Pennsylvania State University) is NOT
+included and must be obtained separately from http://borgmoea.org.

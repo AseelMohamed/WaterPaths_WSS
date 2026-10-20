@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, together with the original WaterPaths paper and the CAESB application paper listed under references."
+title: "WaterPaths-WSS: multi-subsystem WaterPaths for the Federal District of Brazil"
+type: software
+version: 1.0.0
+date-released: "2026-10-19"  # update to the actual release date
+doi: 10.5281/zenodo.XXXXXXX
+license: Apache-2.0
+repository-code: "https://github.com/AseelMohamed/WaterPaths_v01"
+authors:
+  - family-names: Mohamed
+    given-names: Aseel
+    affiliation: "[Affiliation]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+keywords:
+  - water supply planning
+  - deep uncertainty
+  - many-objective optimization
+  - risk-of-failure
+  - drought management
+  - infrastructure pathways
+  - affordability
+  - equity
+  - Borg MOEA
+  - Brasília
+  - CAESB
+  - WaterPaths
+abstract: >-
+  WaterPaths-WSS extends the WaterPaths stochastic simulation and optimization
+  framework with an explicit Water Supply System (WSS) layer, allowing a single
+  utility to manage several hydraulically distinct subsystems, each with its own
+  demands, sources, risk-of-failure triggers, drought-mitigation instruments,
+  infrastructure pathway, finances, reliability and affordability objectives.
+  It is configured for the two CAESB subsystems (Descoberto and Torto/Santa Maria)
+  of the Federal District of Brazil.
+references:
+  - type: article
+    title: "Water pathways: An open source stochastic simulation system for integrated water supply portfolio management and infrastructure investment planning"
+    authors:
+      - {family-names: Trindade, given-names: Bernardo C.}
+      - {family-names: Gold, given-names: David F.}
+      - {family-names: Reed, given-names: Patrick M.}
+      - {family-names: Zeff, given-names: Harrison B.}
+      - {family-names: Characklis, given-names: Gregory W.}
+    journal: "Environmental Modelling & Software"
+    volume: 132
+    start: "104772"
+    year: 2020
+    doi: 10.1016/j.envsoft.2020.104772
+  - type: article
+    title: "Exploring Equity Challenges within Deeply Uncertain Water Supply Investment Pathways in the Federal District of Brazil"
+    authors:
+      - {family-names: Araújo, given-names: Bruna M.}
+      - {family-names: Gold, given-names: David F.}
+      - {family-names: Lau, given-names: Lillian B.}
+      - {family-names: Reed, given-names: Patrick M.}
+      - {family-names: Alves, given-names: Conceição M. A.}
+    journal: "Journal of Water Resources Planning and Management"
+    volume: 150
+    issue: 8
+    start: "04024030"
+    year: 2024
+    doi: 10.1061/JWRMD5.WRENG-6353
+  - type: software
+    title: "WaterPaths"
+    authors:
+      - {family-names: Trindade, given-names: Bernardo C.}
+    repository-code: "https://github.com/bernardoct/WaterPaths"
+    license: Apache-2.0

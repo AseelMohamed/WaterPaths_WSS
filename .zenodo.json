@@ -1,0 +1,96 @@
+{
+  "title": "WaterPaths-WSS: multi-subsystem WaterPaths for the Federal District of Brazil (v1.0.0)",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Mohamed, Aseel",
+      "affiliation": "Utrecht University",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trindade, Bernardo C.",
+      "type": "Other",
+      "affiliation": "Original WaterPaths developer"
+    },
+    {
+      "name": "Araújo, Bruna M.",
+      "type": "Other",
+      "affiliation": "Original CAESB model"
+    },
+    {
+      "name": "Gold, David F.",
+      "type": "Other",
+      "affiliation": "Original CAESB model"
+    },
+    {
+      "name": "Lau, Lillian B.",
+      "type": "Other",
+      "affiliation": "Original CAESB model"
+    },
+    {
+      "name": "Giacomazzo, Andressa P.",
+      "type": "Other",
+      "affiliation": "Original CAESB model"
+    }
+  ],
+  "keywords": [
+    "water supply planning",
+    "deep uncertainty",
+    "many-objective optimization",
+    "risk-of-failure",
+    "drought management",
+    "infrastructure pathways",
+    "affordability",
+    "equity",
+    "multi-subsystem utility",
+    "Borg MOEA",
+    "WaterPaths",
+    "CAESB",
+    "Brasília",
+    "Federal District of Brazil"
+  ],
+  "description": "<p><strong>WaterPaths-WSS</strong> is a modified version of WaterPaths (Trindade et al., 2020), an open-source C++ stochastic simulation and many-objective optimization framework for regional water-supply portfolio and infrastructure planning under deep uncertainty. It adds an explicit <strong>Water Supply System (WSS)</strong> layer so that <strong>a single utility can operate several hydraulically distinct subsystems</strong>, a configuration common in large utilities that the original framework could only represent as separate, independent utilities.</p><p>The model is configured for CAESB, the water utility of the Federal District of Brazil, with two subsystems: <strong>Descoberto</strong> (Descoberto Reservoir and Corumbá IV) and <strong>Torto/Santa Maria</strong> (Santa Maria/Torto Reservoir, the Bananal and Torto intakes, and emergency supply from Lake Paranoá). The CAESB problem builds on Araújo et al. (2024; doi:10.5281/zenodo.8221350). The author of this record did not develop WaterPaths or the original CAESB model; this release documents and distributes the modifications.</p><p><strong>Main modifications</strong></p><ul><li><em>Multi-subsystem architecture:</em> a new <code>WaterSupplySystems</code> class. Each WSS has its own demands, tariffs, demand classes, source-to-WTP mapping, wastewater returns, risk-of-failure (ROF) state, infrastructure construction order and triggers, and financial accounting. The parent utility pools debt service and contingency funds and coordinates shared infrastructure.</li><li><em>Per-WSS ROF:</em> the continuity models and pre-computed ROF tables are computed per subsystem.</li><li><em>Drought instruments at subsystem level:</em> three-stage restrictions with tariff surcharges; bilateral transfers between subsystems with a sender demand-protection factor; and a new ROF-triggered emergency transfer from Lake Paranoá whose capacity grows with Paranoá WTP expansions and which gates their construction.</li><li><em>New objectives:</em> per-subsystem reliability, affordability index (water bill ÷ household income) and optional failure severity, with eight experiment modes (minimax, average, per-subsystem, single-subsystem, penalty-based and disparity/equity-gap formulations).</li><li><em>Outputs and robustness:</em> per-WSS time series, pathways and annual reliability outputs; thread-safe per-realization copies; handling of failed Borg evaluations; portable CLI; CMake build. 22 decision variables, up to 7 objectives.</li></ul><p><strong>Requirements:</strong> C++14 with OpenMP and MPI; optimization also requires Borg MOEA (not included; http://borgmoea.org). Input data and ROF tables: doi:10.5281/zenodo.YYYYYYY.</p><p><strong>Please cite</strong> this record, Trindade et al. (2020), doi:10.1016/j.envsoft.2020.104772, and Araújo et al. (2024), doi:10.1061/JWRMD5.WRENG-6353. License: Apache-2.0 (inherited from WaterPaths).</p>",
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.envsoft.2020.104772",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://github.com/bernardoct/WaterPaths",
+      "relation": "isDerivedFrom",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.8221350",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.1061/JWRMD5.WRENG-6353",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.5281/zenodo.YYYYYYY",
+      "relation": "isSupplementedBy",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ],
+  "references": [
+    "Trindade, B. C., Gold, D. F., Reed, P. M., Zeff, H. B., & Characklis, G. W. (2020). Water pathways: An open source stochastic simulation system for integrated water supply portfolio management and infrastructure investment planning. Environmental Modelling & Software, 132, 104772. https://doi.org/10.1016/j.envsoft.2020.104772",
+    "Araújo, B. M., Gold, D. F., Lau, L. B., Reed, P. M., & Alves, C. M. A. (2024). Exploring equity challenges within deeply uncertain water supply investment pathways in the Federal District of Brazil. Journal of Water Resources Planning and Management, 150(8), 04024030. https://doi.org/10.1061/JWRMD5.WRENG-6353",
+    "Hadka, D., & Reed, P. (2013). Borg: An auto-adaptive many-objective evolutionary computing framework. Evolutionary Computation, 21(2), 231-259. https://doi.org/10.1162/EVCO_a_00075"
+  ]
+}

@@ -170,7 +170,7 @@ The output files are written to `output/`: `Utilities_s*`, `WSS_s*`, `WaterSourc
 
 If you use this software, please cite **both** this release and the original works:
 
-- Mohamed, A. (2026). *WaterPaths-WSS: multi-subsystem WaterPaths for the Federal District of Brazil* (v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23498972
+- Mohamed, A., Alves, C. M. A., Lira, Y., Bierkens, M. F. P., & Gold, D. F. (2026). WaterPaths-WSS: multi-subsystem WaterPaths for the Federal District of Brazil (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23498972
 - Trindade, B. C., Gold, D. F., Reed, P. M., Zeff, H. B., & Characklis, G. W. (2020). Water pathways: An open source stochastic simulation system for integrated water supply portfolio management and infrastructure investment planning. *Environmental Modelling & Software*, 132, 104772. https://doi.org/10.1016/j.envsoft.2020.104772
 - Araújo, B. M., Gold, D. F., Lau, L. B., Reed, P. M., & Alves, C. M. A. (2024). Exploring equity challenges within deeply uncertain water supply investment pathways in the Federal District of Brazil. *Journal of Water Resources Planning and Management*, 150(8), 04024030. https://doi.org/10.1061/JWRMD5.WRENG-6353
 

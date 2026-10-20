@@ -4,7 +4,6 @@ title: "WaterPaths-WSS: multi-subsystem WaterPaths for the Federal District of B
 type: software
 version: 1.0.0
 date-released: "2026-10-20"  
-doi: 10.5281/zenodo.XXXXXXX
 license: Apache-2.0
 repository-code: "https://github.com/AseelMohamed/WaterPaths_WSS"
 authors:

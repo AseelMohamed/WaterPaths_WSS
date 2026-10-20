@@ -158,7 +158,7 @@ Makefile, CMakeLists.txt       build files
 | DU factors | 999 samples × (5 utility + 29 source + 2 policy) factors | multipliers |
 | Tariffs / demand classes | 12 months × 5 user classes, per WSS | R$/m³, fractions |
 
-The inputs and (example) pre-computed ROF tables are archived separately on Zenodo: **[DATA DOI 10.5281/zenodo.YYYYYYY]**. Download them and unpack into `InputFiles/` and `rof_tables/`.
+The inputs and (example) pre-computed ROF tables are archived separately on Zenodo: **https://doi.org/10.5281/zenodo.23492993**. Download them and unpack into `InputFiles/` and `rof_tables/`.
 
 ## Outputs
 

@@ -5,6 +5,7 @@ type: software
 version: 1.0.0
 date-released: "2026-10-20"  
 license: Apache-2.0
+doi: https://doi.org/10.5281/zenodo.23498972
 repository-code: "https://github.com/AseelMohamed/WaterPaths_WSS"
 authors:
   - family-names: Mohamed

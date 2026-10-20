@@ -3,15 +3,30 @@ message: "If you use this software, please cite it as below, together with the o
 title: "WaterPaths-WSS: multi-subsystem WaterPaths for the Federal District of Brazil"
 type: software
 version: 1.0.0
-date-released: "2026-10-19"  # update to the actual release date
+date-released: "2026-10-20"  
 doi: 10.5281/zenodo.XXXXXXX
 license: Apache-2.0
-repository-code: "https://github.com/AseelMohamed/WaterPaths_v01"
+repository-code: "https://github.com/AseelMohamed/WaterPaths_WSS"
 authors:
   - family-names: Mohamed
     given-names: Aseel
-    affiliation: "[Affiliation]"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Utrecht University"
+    orcid: "https://orcid.org/0009-0008-7735-6343"
+  - family-names: Alves
+    given-names: Conceição M. A.
+    affiliation: "Universidade de Brasília"
+    orcid: "https://orcid.org/0000-0002-6553-1561"
+  - family-names: Lira
+    given-names: Yasmin
+    affiliation: "Universidade de Brasília"
+  - family-names: Bierkens
+    given-names: Marc F. P.
+    affiliation: "Utrecht University"
+    orcid: "https://orcid.org/0000-0002-7411-6562"
+  - family-names: Gold
+    given-names: David F.
+    affiliation: "Utrecht University"
+    orcid: "https://orcid.org/0000-0002-0854-1819"
 keywords:
   - water supply planning
   - deep uncertainty
@@ -19,7 +34,6 @@ keywords:
   - risk-of-failure
   - drought management
   - infrastructure pathways
-  - affordability
   - equity
   - Borg MOEA
   - Brasília

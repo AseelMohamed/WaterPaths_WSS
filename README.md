@@ -187,3 +187,10 @@ Original WaterPaths: B. C. Trindade, D. F. Gold, P. M. Reed, H. B. Zeff, G. W. C
 ## Contact
 
 Aseel Mohamed – Utrecht University – https://orcid.org/0009-0008-7735-6343 – open an issue on GitHub.
+
+
+---
+
+## AI Assistance Disclosure
+
+Parts of the code modifications in this repository were developed with the help of **GitHub Copilot** in Visual Studio, an AI coding assistant. All AI-generated suggestions were carefully reviewed, edited where necessary, and tested by the author before being included. The author takes full responsibility for the final code.
